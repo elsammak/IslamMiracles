@@ -1,6 +1,11 @@
 const images = [
   { src: 'images/image_page1.jpg', text: 'みなさん、私のシンプルなウェブサイトへようこそ。これは、イスラムの奇跡を紹介し、なぜイスラムがあなたにとって正しい選択なのかを非常にシンプルに説得するためのものです。\nこのウェブサイトでは、クルアーン（イスラムの聖典）に記載された多くの奇跡や、現代科学がその正確性を証明した方法をご覧いただけます。\n右矢印をクリックして、始めましょう。\nこのクルアーンが1600年前に砂漠で紹介されたことを常に心に留めておいてください。ですので、ここでいくつかの奇跡があなたにとって些細に見えるかもしれませんが、常にこれが古代に書かれたものであることを忘れないでください。' },
-  { src: 'images/image_page2.jpg', text: '天と，ノック者によって（誓う）。\nノック者が何であるかを，あなたに理解させるものは何か。\n（それは）きらめき輝く星。\n\nhttps://quranpedia.net/surah/1/86/book/1976\n\n\n説明\n\n上記のクルアーンのパラグラフでは、神は空とノッカーによって誓います。しかし、ノッカーとは何でしょうか？答えは最後の文で「それは星です」と出てきます。これは奇妙で理解しにくいですよね？ノッカーと空の星との関連性は何でしょうか？\n\n答えはNASAからきました。そこで彼らは新しいタイプの星を発見しました。これらの星は電磁パルスを生成し、その音が木をノックする音に非常に似ています。それを聞くためには、下の動画をチェックしてください。面白いですね、そうでしょう？\n\n参考' },
+  { src: 'images/image_page2.jpg', text: '<div class="quran-quote">天と，ノック者によって（誓う）。<br>ノック者が何であるかを，あなたに理解させるものは何か。<br>（それは）きらめき輝く星。</div>' +
+'<p><a href="https://quranpedia.net/surah/1/86/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/86/book/1976</a></p>' +
+'<div class="explanation-title">説明</div>' +
+'<p>上記のクルアーンのパラグラフでは、神は空とノッカーによって誓います。しかし、ノッカーとは何でしょうか？答えは最後の文で「それは星です」と出てきます。これは奇妙で理解しにくいですよね？ノッカーと空の星との関連性は何でしょうか？</p>' +
+'<p>答えはNASAからきました。そこで彼らは新しいタイプの星を発見しました。これらの星は電磁パルスを生成し、その音が木をノックする音に非常に似ています。それを聞くためには、下の動画をチェックしてください。面白いですね、そうでしょう？</p>' +
+'<p><a href="https://www.youtube.com/shorts/NfV6zFuZiIk" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page3.jpg', text: '2.ビザンチンの民は打ち負かされた。\n3.近接する地において（打ち負かされた）。だがかれらは，（この）敗北の後直ぐに勝つであろう。\n\n\nhttps://quranpedia.net/surah/1/30/book/1976\n\n\n\n説明\n\nこの部分は、約1600年前にローマ帝国とペルシャの間で行われた古い戦争を描いています（ペルシャが勝利しました）。それは単にその戦争が最も低い地点で起きたこと（死海の近く）だけでなく、またローマが数年以内にペルシャを打ち破るであろうこと（実際には10年未満で実現しました）も述べています。\n\n参考\n\n\n\n\n参考' },
   { src: 'images/image_page4.jpg', text: '75.わたしは，沈んでゆく星にかけて誓う。\n76.それは本当に偉大な誓いである。もしあなたがたに分るならば，\n\nhttps://quranpedia.net/surah/1/56/book/1976\n\n\n説明\n\nこの部分で、神は星の位置を誓わないと述べています。その理由は20世紀になるまで分かりませんでした。アルバート・アインシュタインが発見するまで、空の星は実際の場所にないことがわかりませんでした。星の光が私たちに届くのに非常に長い時間（数百万年かかるかもしれません）がかかるため、空に見える星は実際の時間の位置にないのです。\n\n参考 ' },
   { src: 'images/image_page5.jpg', text: 'われは誓う、隠れる諸星に。それらはいずれ現れる。\nそして軌道を走り、そして暁と共に沈むもの。それは、自分の穴に戻るガゼルのようなもの。\n\n\nhttps://quranpedia.net/surah/1/81/book/1976\n\n\n説明\n\nこの部分は非常に興味深いですね。ほとんど見えない空の中のもので、絶えず動き回り、その通り道にあるものを引き寄せてしまうものは何だと思いますか？答えはブラックホールです。\n\n参考' },
@@ -36,11 +41,13 @@ const nextButton = document.getElementById('next-button');
 function showImage(index) {
   if (images && images.length > 0 && images[index]) {
     galleryImage.src = images[index].src;
-    galleryText.textContent = images[index].text;
+    // Update to use innerHTML instead of textContent
+    galleryText.innerHTML = images[index].text;
     currentImageIndex = index;
   } else {
     galleryImage.src = '';
-    galleryText.textContent = 'Error: Image data is missing or corrupt.';
+    // Clear innerHTML as well
+    galleryText.innerHTML = 'Error: Image data is missing or corrupt.';
     console.error('Error: images array is not properly initialized or index is out of bounds. Index:', index, 'Images:', images);
   }
 }
@@ -63,6 +70,7 @@ if (images && images.length > 0) {
   showImage(currentImageIndex);
 } else {
   galleryImage.src = '';
-  galleryText.textContent = 'No images loaded. Please check the image data.';
+  // Clear innerHTML as well
+  galleryText.innerHTML = 'No images loaded. Please check the image data.';
   console.error('Initial load error: images array is empty or undefined.');
 }
