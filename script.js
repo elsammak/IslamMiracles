@@ -26,7 +26,7 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/78/book/27828" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/78/book/27828</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>この部分では、クルアーンは山を地球の安定のための杭や支柱として言及しています。驚くべきことに、現代の科学は山が地球の地殻を安定させるために地球の下に杭のような働きをすることを証明しました。</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p>参考</p>' +
 '<p>1. Lisitzin, E. (1974) “Sea level changes”. Elsevier Oceanography Series, 8.</p>' +
 '<p>2. AB Watts (2001). Isostasy and Flexure of the Lithosphere. Cambridge University Press.</p>' +
 '<p>3. Crittenden, M. D., Jr., 1963, Effective viscosity of the earth derived from isostatic loading of Pleistocene Lake Bonneville: Journal of Geophysical Research, v. 68, p. 5517-5530.</p>' +
@@ -120,9 +120,7 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/15/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/15/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>人類が宇宙に到達できるようになった後、彼は、宇宙の大部分が完全な闇に覆われていること、そして太陽に面した半球の昼間帯が海面上空でわずか200キロしかないことを発見しました。その上空に人が上昇すれば、彼は太陽を漆黒のページの上の青い円盤として見るでしょう。</p>' +
-'<p>聖クルアーンは、科学がそれを発見する前に、空を通って上昇する者を、目が曇った者に例え、彼がもはや何も見えず、完全な暗闇と全くの暗闇しか見ないようにしました。あるいは、彼を魔法にかかった者に例え、周りで起こっていることを理解しなくなった者に例えました。これらの比喩の両方が、最初の宇宙飛行士が昼光の範囲を超え、宇宙の暗闇に入った時に起こったことを正確に表現しています。そして、彼らはクルアーンの詩が私たちに伝えたこととほぼ同じ表現をした、それについての知識なしに。</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference2" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p>聖クルアーンは、科学がそれを発見する前に、空を通って上昇する者を、目が曇った者に例え、彼がもはや何も見えず、完全な暗闇と全くの暗闇しか見ないようにしました。あるいは、彼を魔法にかかった者に例え、周りで起こっていることを理解しなくなった者に例えました。これらの比喩の両方が、最初の宇宙飛行士が昼光の範囲を超え、宇宙の暗闇に入った時に起こったことを正確に表現しています。そして、彼らはクルアーンの詩が私たちに伝えたこととほぼ同じ表現をした、それについての知識なしに。</p>'},
   { src: 'images/image_page24.jpg', text: '<div class="quran-quote">41.アッラーを差し置いて外の主人を取る者を譬えれば，（自分で自分の）家を造る蜘蛛のようなものである。本当に家の中でも最も弱いのは，蜘蛛の家である。かれらに分っていたならば，よかったのに。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/29/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/29/book/1976</a></p>' +
 '<p>この部分は、日本語では性別を示す代名詞がないため、あまり明確にならないかもしれません。アラビア語では、この部分は雌のクモを指し、雄のクモではありません。これは、最近の発見によるもので、クモが巣を作っているのを見ると、そのクモは雌性のクモであることがわかります。なぜなら、雄のクモは昆虫を捕らえるために巣を使いますが、巣の建設には向いていないからです。</p>' +
