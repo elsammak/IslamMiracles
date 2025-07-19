@@ -10,18 +10,18 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/30/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/30/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>この部分は、約1600年前にローマ帝国とペルシャの間で行われた古い戦争を描いています（ペルシャが勝利しました）。それは単にその戦争が最も低い地点で起きたこと（死海の近く）だけでなく、またローマが数年以内にペルシャを打ち破るであろうこと（実際には10年未満で実現しました）も述べています。</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference2" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.statista.com/statistics/504443/the-lowest-places-on-earth/" target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p><a href="https://ja.wikipedia.org/wiki/%E5%9B%BD%E5%88%A5%E6%9C%80%E4%BD%8E%E6%A8%99%E9%AB%98%E5%9C%B0%E7%82%B9%E3%81%AE%E4%B8%80%E8%A6%A7#:~:text=%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB%E3%81%A8%E3%83%A8%E3%83%AB%E3%83%80%E3%83%B3%E3%81%AB%E3%81%BE%E3%81%9F%E3%81%8C%E3%82%8B,%E3%81%8C%E4%BD%8E%E3%81%84%E5%9C%B0%E7%82%B9%E3%81%A7%E3%81%82%E3%82%8B%E3%80%82" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page4.jpg', text: '<div class="quran-quote">75.わたしは，沈んでゆく星にかけて誓う。<br>76.それは本当に偉大な誓いである。もしあなたがたに分るならば，</div>' +
 '<p><a href="https://quranpedia.net/surah/1/56/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/56/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>この部分で、神は星の位置を誓わないと述べています。その理由は20世紀になるまで分かりませんでした。アルバート・アインシュタインが発見するまで、空の星は実際の場所にないことがわかりませんでした。星の光が私たちに届くのに非常に長い時間（数百万年かかるかもしれません）がかかるため、空に見える星は実際の時間の位置にないのです。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://phys.org/news/2023-08-simulations-black-holes-one-tenth.html#:~:text=23-,Simulations%20suggest%20some%20black%20holes%20could%20be%20moving%20at%20nearly,tenth%20the%20speed%20of%20light&text=A%20pair%20of%20astrophysicists%20at,tenth%20the%20speed%20of%20light." target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page5.jpg', text: '<div class="quran-quote">われは誓う、隠れる諸星に。それらはいずれ現れる。<br>そして軌道を走り、そして暁と共に沈むもの。それは、自分の穴に戻るガゼルのようなもの。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/81/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/81/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>この部分は非常に興味深いですね。ほとんど見えない空の中のもので、絶えず動き回り、その通り道にあるものを引き寄せてしまうものは何だと思いますか？答えはブラックホールです。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.nasa.gov/universe/what-are-black-holes/" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page6.jpg', text: '<div class="quran-quote">また山々を、大地の安定のための杭にしたではないか。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/78/book/27828" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/78/book/27828</a></p>' +
 '<div class="explanation-title">説明</div>' +
@@ -40,18 +40,18 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/36/book/27828" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/36/book/27828</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>長い間、太陽が中心で、他のすべてがその周りを動いていると信じられてきました。しかし最近の証拠によれば、宇宙の中ですべてが動いている、太陽も含めてです。これがこの部分が取り巻く内容です。リソースを表示する必要はありませんね？</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://science.nasa.gov/sun/facts/" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page9.jpg', text: '<div class="quran-quote">アッラーを否定する者たちは、諸天と大地がかつて重なり合っていて、隙間なくそこから雨が降っていたのをわれらが両者をわけ、天から地へ降る雨によりすべての動植物をつくったのを知らないのか。それを考慮してアッラーのみを信じようとはしないのか。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/21/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/21/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>ここでは2つのことが言及されています。ビッグバン理論と、すべての生命体が水に依存しているという事実です。アッラーはここで地球が空から噴火したことを語り、またあらゆる生命体が生きるために水に依存していることも述べています。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="http://www.lap.c.u-tokyo.ac.jp/ja/theme_lectures/water/131127/#:~:text=%E7%94%9F%E7%89%A9%E3%81%AB%E3%81%A8%E3%81%A3%E3%81%A6%E6%B0%B4%E3%81%8C%E4%B8%8D%E5%8F%AF%E6%AC%A0,%E3%82%82%E9%87%8D%E8%A6%81%E4%BA%8B%E3%81%A7%E3%81%82%E3%82%8B%E3%80%82" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page10.jpg', text: '<div class="quran-quote">諸天をわれらは打ち立て、力によってその構築を完全なものとした。われらはその両端をさらに広げよう。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/51/book/27828" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/51/book/27828</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>最近まで、宇宙のサイズは限定されていると信じられていました。現代の科学がそれを証明するまで、誰もが宇宙が拡大していることを知りませんでした。この部分はまた、アッラーが宇宙を創造し、それが拡大し続けていることを描写しています。</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference2" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.businessinsider.jp/post-201406" target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p><a href="https://gigazine.net/news/20230120-universe-expanding/" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page11.jpg', text: '<div class="quran-quote">7.また山々を，杭としたてはないか。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/78/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net.com/surah/1/78/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
@@ -64,14 +64,14 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/41/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/41/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>それは奇妙ですね。長い間、私たちは空が固体の物体でいっぱいだと考えていました。私たちは、一部の星（さらには一部の惑星）が煙やガスから創造されたとは知りませんでした。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page14.jpg', text: '<div class="quran-quote">アッラー*が誰かを導くことをお望みになれば、かれはその者の胸を服従（イスラーム*）へと広げて下さる。また、かれが誰かを迷わせることをお望みになれば、かれはその者の胸をひどく狭められる。それは、あたかも（上）空に何とか昇ろうとする¹ようなもの。同様にアッラー*は、信仰しない者たちに穢れ²をお与えになるのだ。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/6/book/27817" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/6/book/27817</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>Allahはここで、自分の存在を否定し、空に上昇しているような痛みを感じる人の例を挙げています。空では空気圧が低いため、同じ感覚を得ることができると知っていますよね？</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference2" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference3" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.quora.com/What-will-be-the-atmospheric-pressure-effect-as-we-go-up-in-the-sky#:~:text=Air%20pressure%20decreases%20as%20you,4%20that%20of%20sea%20level." target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p><a href="https://ja.wikipedia.org/wiki/%E6%B0%97%E5%9C%A7" target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p><a href="https://education.nationalgeographic.org/resource/atmospheric-pressure/" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page15.jpg', text: '<div class="quran-quote">37.またかれらへの印には，夜がある。われがそれから昼を退かせると，見よ，真っ暗になる。<br>https://quranpedia.net/surah/1/36/book/1976<br>5.かれは灯明（星）をもって，最下層の天を飾り，悪魔たちに対する磔（流星）となし，またかれらのために烈火の懲罰を準備した<br>https://quranpedia.net/surah/1/67/book/1976</div>' +
 '<div class="explanation-title">説明</div>' +
 '<p>二つの尊い詩句に示されているように、宇宙は深い闇に包まれており、私たちは地球の表面で明るい日中であっても同様です。科学者たちは、太陽系に属する地球や他の惑星が明るい日中に照らされているのを見てきましたが、その周りの天空は深い闇に覆われています。ムハンマド、神に祝福と平安あれ、の時代に、闇が宇宙の支配的な状態であることを誰が知っていたでしょうか？そして、これらの銀河や星々が、周囲を取り囲む広大な宇宙の闇をほんのわずかに照らすだけの小さな弱いランプであることを、装飾やランプのように見えるだけであるということを、誰が知っていたでしょうか？</p>' },
@@ -79,7 +79,7 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/21/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/21/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
 '<p>現代の科学は、地球を取り囲む大気の存在を証明しています。この大気は有害な太陽光線や破壊的な隕石から地球を保護します。これらの隕石が地球の大気に触れると、その接触によって点火され、私たちには夜に空から大きな速さで落下する小さな発光塊として現れます。その後、すぐに消えて消えてしまい、これが私たちが流星と呼ぶものです。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.space.com/17683-earth-atmosphere.html" target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page17.jpg', text: '<div class="quran-quote">88.あなたは山々を見て堅固であると思うだろう。だがそれは雲が散るように通り過ぎていくのである。それは凡てのものを，完成なされるアッラーの御業である。本当にかれはあなたがたの行うことを熟知なされる</div>' +
 '<p><a href="https://quranpedia.net/surah/1/27/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/27/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
@@ -97,7 +97,7 @@ const images = [
 '<div class="explanation-title">説明</div>' +
 '<p>古代の人間は、2分以上息を止めることができなかったため、15メートル以上潜ることができませんでした。また、彼の体内の血管は水の圧力で爆発してしまう可能性がありました。 20世紀に潜水艦が利用可能になった後、科学者たちは海底が非常に暗いことを発見しました。また、すべての海には2層の水があることも発見されました。 最初の層は深くて非常に暗く、強い波に覆われています。そして、もう1つの層は表面的で、また暗く、海面の波に覆われています。</p>' +
 '<p>アメリカの科学者（ヒル）は、このクルアーンの偉大さに驚きました。そして、その驚異がクルアーンの一節の後半で議論されたとき、その驚きはさらに増しました。気象条件は北米、ロシア、極近くのスカンジナビア諸国にしか起こらず、これらはムハンマドの時代には発見されていませんでした。</p>' +
-'<p><a href="https://example.com/reference" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://nexus.jefferson.edu/science-and-technology/what-are-internal-waves-in-the-ocean-and-why-are-they-important/#:~:text=Internal%20waves%20are%20the%20undersea,dioxide%20down%20to%20the%20depths." target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page21.jpg', text: '<div class="quran-quote">あなたがたは見ないか。アッラーは雲を駆り，やがてそれを相い合わせ，さらに固まりにされ，やがて慈雨が，その間から降るのを。また雹を含む，山（のような雲）を天から下し，かれは，御好みの者をそれで撃ち，御好みの者を避けられる。稲妻の閃きは，本当に目を奪おうとする。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/24/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/24/book/1976</a></p>' +
 '<div class="explanation-title">説明</div>' +
@@ -126,8 +126,8 @@ const images = [
   { src: 'images/image_page24.jpg', text: '<div class="quran-quote">41.アッラーを差し置いて外の主人を取る者を譬えれば，（自分で自分の）家を造る蜘蛛のようなものである。本当に家の中でも最も弱いのは，蜘蛛の家である。かれらに分っていたならば，よかったのに。</div>' +
 '<p><a href="https://quranpedia.net/surah/1/29/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/29/book/1976</a></p>' +
 '<p>この部分は、日本語では性別を示す代名詞がないため、あまり明確にならないかもしれません。アラビア語では、この部分は雌のクモを指し、雄のクモではありません。これは、最近の発見によるもので、クモが巣を作っているのを見ると、そのクモは雌性のクモであることがわかります。なぜなら、雄のクモは昆虫を捕らえるために巣を使いますが、巣の建設には向いていないからです。</p>' +
-'<p><a href="https://example.com/reference1" target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://example.com/reference2" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href="https://www.quora.com/When-astronauts-are-in-space-can-they-still-be-blinded-by-the-sun-Do-they-have-to-avoid-looking-at-it#:~:text=%C2%B7%201y-,Yes%2C%20astronauts%20can%20still%20be%20blinded%20by%20the%20sun%20while,be%20very%20bright%20and%20intense." target="_blank" rel="noopener noreferrer">参考</a></p>' +
+'<p><a href="https://www.quora.com/How-do-astronauts-see-in-space-since-it-is-completely-black-there#:~:text=It's%20not%20black%20in%20space,angle)%20or%20artificially%20with%20lights." target="_blank" rel="noopener noreferrer">参考</a></p>' },
   { src: 'images/image_page25.jpg', text: 'コンテンツはここまでです。ウェブサイトをご利用いただきありがとうございます。イスラムとその奇跡についての理解を深める一助となれば幸いです。さらにご質問がある場合や、イスラムについてもっと学びたい場合は、地域のイスラムセンターにお問い合わせいただくか、信頼できる情報源をオンラインで検索してください。\n\n平和あれ。' }
 ];
 
