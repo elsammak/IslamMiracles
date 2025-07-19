@@ -125,7 +125,8 @@ const images = [
 '<p><a href="https://quranpedia.net/surah/1/29/book/1976" target="_blank" rel="noopener noreferrer">https://quranpedia.net/surah/1/29/book/1976</a></p>' +
 '<p>この部分は、日本語では性別を示す代名詞がないため、あまり明確にならないかもしれません。アラビア語では、この部分は雌のクモを指し、雄のクモではありません。これは、最近の発見によるもので、クモが巣を作っているのを見ると、そのクモは雌性のクモであることがわかります。なぜなら、雄のクモは昆虫を捕らえるために巣を使いますが、巣の建設には向いていないからです。</p>' +
 '<p><a href="https://www.quora.com/When-astronauts-are-in-space-can-they-still-be-blinded-by-the-sun-Do-they-have-to-avoid-looking-at-it#:~:text=%C2%B7%201y-,Yes%2C%20astronauts%20can%20still%20be%20blinded%20by%20the%20sun%20while,be%20very%20bright%20and%20intense." target="_blank" rel="noopener noreferrer">参考</a></p>' +
-'<p><a href="https://www.example.com" target="_blank" rel="noopener noreferrer">参考</a></p>' },
+'<p><a href=\"https://www.quora.com/How-do-astronauts-see-in-space-since-it-is-completely-black-there#:~:text=It\'s%20not%20black%20in%20space,angle)%20or%20artificially%20with%20lights.\" target=\"_blank\" rel=\"noopener noreferrer\">参考</a></p>'
+ },
   { src: 'images/image_page25.jpg', text: 'コンテンツはここまでです。ウェブサイトをご利用いただきありがとうございます。イスラムとその奇跡についての理解を深める一助となれば幸いです。さらにご質問がある場合や、イスラムについてもっと学びたい場合は、地域のイスラムセンターにお問い合わせいただくか、信頼できる情報源をオンラインで検索してください。\n\n平和あれ。' }
 ];
 
